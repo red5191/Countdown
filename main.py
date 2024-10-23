@@ -6,7 +6,6 @@ def countdown():
                 break
             else:
                 print('Это не положительное', '\n')
-                # x = int(input('Введи целое, положительное число '))
         except ValueError:(
             print('Это не число', '\n'))
     while x >= 0:
